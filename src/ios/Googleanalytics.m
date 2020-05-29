@@ -1,8 +1,10 @@
-#import <GoogleAnalytics/GAI.h>
-#import <GoogleAnalytics/GAIDictionaryBuilder.h>
-GAI *gai = [GAI sharedInstance];
-[gai trackerWithTrackingId:@"YOUR_TRACKING_ID"];
+@import UIKit;
+@import Firebase;
 
-gai.trackUncaughtExceptions = YES;
+@implementation GoogleAnalytics
 
-gai.logger.logLevel = kGAILogLevelVerbose;
+- (BOOL)connect:(UIApplication *)application
+    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  [FIRApp configure];
+  return YES;
+}

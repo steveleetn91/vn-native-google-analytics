@@ -1,15 +1,35 @@
 {
-  "name": "vn-native-google-analytics",
-  "version": "1.0.0",
-  "description": "Library Vn Native Google Analytics",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+  "_from": "git+https://github.com/steveleetn91/vn-native-google-analytics.git",
+  "_id": "vn-native-google-analytics@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/vn-native-google-analytics",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/steveleetn91/vn-native-google-analytics.git"
+    "raw": "https://github.com/steveleetn91/vn-native-google-analytics.git",
+    "rawSpec": "https://github.com/steveleetn91/vn-native-google-analytics.git",
+    "saveSpec": "git+https://github.com/steveleetn91/vn-native-google-analytics.git",
+    "fetchSpec": "https://github.com/steveleetn91/vn-native-google-analytics.git",
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/steveleetn91/vn-native-google-analytics.git#ed0fe6a126ba3c24dc53b447ca5e8821f83d0008",
+  "_spec": "https://github.com/steveleetn91/vn-native-google-analytics.git",
+  "_where": "/Users/hoanglee/Works/vn-native-project/test01/app",
+  "author": {
+    "name": "hoang lee"
+  },
+  "bugs": {
+    "url": "https://github.com/steveleetn91/vn-native-google-analytics/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Library Vn Native Google Analytics",
+  "homepage": "https://github.com/steveleetn91/vn-native-google-analytics#readme",
   "keywords": [
     "hoang",
     "lee",
@@ -20,10 +40,15 @@
     "google",
     "analytics"
   ],
-  "author": "hoang lee",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/steveleetn91/vn-native-google-analytics/issues"
+  "main": "index.js",
+  "name": "vn-native-google-analytics",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/vn-native-google-analytics.git"
   },
-  "homepage": "https://github.com/steveleetn91/vn-native-google-analytics#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
