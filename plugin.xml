@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="vn-native-2-example-library" version="1.0.21">
+        id="vn-native-google-analytics" version="1.0.0">
     <name>Vn Native Google Analytics</name>
     <description>Vn Native Framework Library</description>
-    <license>Apache 2.0</license>
+    <license>Vn Native Framework</license>
     <keywords>vnnative,vn native google ananylytics</keywords>
     <platform name="ios">
         <js-module src="www/ios/google-analytics.js" name="googleanalytics">
