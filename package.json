@@ -1,0 +1,29 @@
+{
+  "name": "vn-native-google-analytics",
+  "version": "1.0.0",
+  "description": "Library Vn Native Google Analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/vn-native-google-analytics.git"
+  },
+  "keywords": [
+    "hoang",
+    "lee",
+    "vn",
+    "native",
+    "vn",
+    "native",
+    "google",
+    "analytics"
+  ],
+  "author": "hoang lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steveleetn91/vn-native-google-analytics/issues"
+  },
+  "homepage": "https://github.com/steveleetn91/vn-native-google-analytics#readme"
+}

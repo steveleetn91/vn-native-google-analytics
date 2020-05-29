@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="vn-native-2-example-library" version="1.0.21">
+    <name>Vn Native Google Analytics</name>
+    <description>Vn Native Framework Library</description>
+    <license>Apache 2.0</license>
+    <keywords>vnnative,vn native google ananylytics</keywords>
+    <platform name="ios">
+        <js-module src="www/ios/google-analytics.js" name="googleanalytics">
+            <clobbers target="googleanalytics" />
+        </js-module>
+        <config-file target="config.xml" parent="/widget">
+            <feature name="googleanalytics">
+                <param name="ios-package" value="googleanalytics" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/Googleanalytics.h" />
+        <source-file src="src/ios/Googleanalytics.m" />
+    </platform>
+    <platform name="android">
+        <js-module src="www/android/googleanalytics.js" name="googleanalytics">
+            <clobbers target="googleanalytics" />
+        </js-module>
+        <config-file target="config.xml" parent="/widget">
+            <feature name="Googleanalytics">
+                <param name="android-package" value="org.apache.cordova.plugin.Googleanalytics"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Googleanalytics.java" target-dir="src/org/apache/cordova/plugin" />
+    </platform>
+    <platform name="browser">
+        <js-module src="www/browser/googleanalytics.js" name="googleanalytics">
+            <clobbers target="googleanalytics" />
+        </js-module>
+    </platform>
+    <platform name="osx">
+        <js-module src="www/osx/googleanalytics.js" name="googleanalytics">
+            <clobbers target="googleanalytics" />
+        </js-module>
+    </platform>
+    <platform name="windows">
+        <js-module src="www/windows/googleanalytics.js" name="googleanalytics">
+            <clobbers target="googleanalytics" />
+        </js-module>
+        <js-module src="src/windows/googleanalyticsProxy.js" name="googleanalyticsProxy">
+            <merges target="" />
+        </js-module>
+    </platform>
+</plugin>
